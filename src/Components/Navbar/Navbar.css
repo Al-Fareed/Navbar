@@ -66,9 +66,14 @@
         padding: 5px;
         text-align: center;
     }
-    .nav-links-mobile li{
-        padding: 10px;
+    .nav-links-mobile li:not(:last-child){
+        padding: 15px;
+        border-bottom: 1px solid white;
     }
+    .nav-links-mobile li:last-child{
+        padding: 15px;
+    }
+    
     .home,
     .skills,
     .contact,
