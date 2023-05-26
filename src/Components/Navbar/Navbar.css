@@ -44,6 +44,10 @@
     display: none;
 }
 @media screen and (max-width:780px){
+    .mobile-menu-icon .fas{
+        background-color: rgb(0, 183, 255);
+
+    }
     .log{
         display: flex;
         position: absolute;
@@ -57,12 +61,13 @@
         position: absolute;
         display: block;
         list-style: none;
-        background-color: rgb(0, 183, 255);
+        background-color: #005469;
         left: 0;
         top:75px;
         transition: all 0.5s ease-out;
         width: 100%;
     }
+    
     .home,
     .skills,
     .contact,
