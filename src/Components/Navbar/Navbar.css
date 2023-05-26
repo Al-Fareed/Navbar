@@ -44,10 +44,7 @@
     display: none;
 }
 @media screen and (max-width:780px){
-    .mobile-menu-icon .fas{
-        background-color: rgb(0, 183, 255);
-
-    }
+    
     .log{
         display: flex;
         position: absolute;
@@ -87,7 +84,7 @@
         position: absolute;
         font-size: 30px;
         color: white;
-        background-color: #00828c;
+        background-color: rgb(0, 183, 255);
         border: none;
         outline: none;
         top: 15px;
