@@ -63,8 +63,12 @@
         top:75px;
         transition: all 0.5s ease-out;
         width: 100%;
+        padding: 5px;
+        text-align: center;
     }
-    
+    .nav-links-mobile li{
+        padding: 10px;
+    }
     .home,
     .skills,
     .contact,
